@@ -15,7 +15,7 @@
     "vite": "^6.2.7"
   },
   "dependencies": {
-    "@fontsource/poppins": "^5.2.5",
+    "@fontsource/poppins": "^5.2.6",
     "@fontsource/raleway": "^5.1.1",
     "@fontsource/roboto": "^5.2.5",
     "aos": "^2.3.4",
