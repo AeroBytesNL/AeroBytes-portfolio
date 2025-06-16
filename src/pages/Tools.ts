@@ -31,6 +31,7 @@ import imageDirectAdmin from '@img/icons/directadmin.svg';
 import imageFleet from '@img/icons/fleet.webp';
 import imageAdonisJS from '@img/icons/adonisjs.png';
 import imagecPanel from '@img/icons/cPanel.png';
+import imageTypedoc from '@img/icons/typedoc.svg';
 
 export function Tools(): HTMLElement {
   const toolsSection: HTMLElement = document.createElement('section');
@@ -167,16 +168,16 @@ export function Tools(): HTMLElement {
             <p>Fleet</p>
           </div>
           <div class="image-hover-resize-10">
-            <img src="${imageActions}" style="width: 45px;" />
-            <p>GitHub Actions</p>
+            <img src="${imageGit}" style="width: 50px;" />
+            <p>Git</p>
           </div>
           <div class="image-hover-resize-10">
             <img src="${imageGitHub}" style="width: 45px;" />
             <p>GitHub</p>
           </div>
           <div class="image-hover-resize-10">
-            <img src="${imageGit}" style="width: 50px;" />
-            <p>Git</p>
+            <img src="${imageActions}" style="width: 45px;" />
+            <p>GitHub Actions</p>
           </div>
           <div class="image-hover-resize-10">
             <img src="${imagePhpStorm}" style="width: 45px;" />
@@ -191,11 +192,15 @@ export function Tools(): HTMLElement {
             <p>Redis</p>
           </div>
           <div class="image-hover-resize-10">
+            <img src="${imageTypedoc}" style="width: 45px;" />
+            <p>TypeDoc</p>
+          </div>
+          <div class="image-hover-resize-10">
             <img src="${imageVsCode}" style="width: 45px;" />
             <p>VSCode</p>
           </div>
           <div class="image-hover-resize-10">
-            <img src="${imageWebStorm}"" style="width: 45px;" />
+            <img src="${imageWebStorm}" style="width: 45px;" />
             <p>WebStorm</p>
           </div>
         </div>
